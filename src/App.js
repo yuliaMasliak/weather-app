@@ -4,8 +4,9 @@ import './App.css';
 function App() {
   return (
   <div className="project">
-    <div className="App">
-      <div className="container">
+    <div className="container">
+      <div className="App">
+      
         <div className="formDiv">
           <form>
             <input className='searchInput' type="search" placeholder='Enter a city ...' />
@@ -27,20 +28,20 @@ function App() {
               </div>
               <div className="col-2"></div>
               <div className="col-4 weekday"> <h1 className="mainCity">Kyiv</h1> 
- <p>Wednesday<br/>Showers in places</p> 
-  </div>
-  </div>
+               <p>Wednesday<br/>Showers in places</p> 
+              </div>
+         </div>
    <div className="row">
    </div>
    </div>
-      </div>
+      
       <footer className="author">
      
       This project was coded by Yulia Masliak and is open-sourced on <span>
             <a href="https://github.com/yuliaMasliak/weather-react" > GitHub</a></span> and hosted on <span>
             <a href="https://flourishing-croissant-d90f66.netlify.app/" > Netlify</a></span> 
     </footer>
-     </div>
+     </div></div>
   );
 }
 

@@ -1,17 +1,25 @@
 .project {
   display: block;
   text-align: center;
-  margin: 60px;
+  margin: 60px auto;
   color: #878787;
+  
    
 }
-
-.App {
-  text-align: center;
+.container { 
   max-width: 700px;
-  border: 1px solid #D9D9D9;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  }
+.App {
+  max-width: 700px;
+  margin: 0px auto;
+  text-align: center;
+    border: 1px solid #D9D9D9;
   border-radius: 5px;
   padding: 20px 40px 20px 20px;
+ 
  
   
 }
@@ -66,7 +74,9 @@ h1{
   }
 
 .author{
-  text-align: left;
+  text-align: center;
+  margin: 0px auto;
   font-size: 15px;
+
 }
 
