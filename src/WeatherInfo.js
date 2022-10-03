@@ -2,15 +2,20 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WeatherTemperature from "./WeatherTemperature";
 
 
 export default function WeatherInfo(props){
     return (
         <div className='row'>
           <div className='col-5'>
-            <p className="currentTemp">{Math.round(props.data.temperature)} <span className="units">°C</span>
-            <WeatherIcon code={props.data.icon} />  </p>
-            </div>
+          <div className="currentTemp">
+           <WeatherIcon code={props.data.icon} />
+            <WeatherTemperature celsius={props.data.temperature} />
+
+            
+          </div>
+          </div>
            
             <div className="col-3 mt-3">
               <ul>

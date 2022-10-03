@@ -6,13 +6,13 @@
    
 }
 .container { 
-  max-width: 700px;
+  max-width: 750px;
   display: block;
   margin: 0px auto;
 
   }
 .Weather {
-  max-width: 700px;
+  max-width: 750px;
   margin: 0px auto;
 
   border: 1px solid #D9D9D9;
@@ -30,26 +30,29 @@ ul{
 h1{
   color: #212121;
   }
+  .iconImage {
+    
+    margin-left: -15px;
+  }
 .currentTemp{
   font-size: 70px;
   color: #212121;
   margin-bottom: 0px;
   margin-left: 26px;
+
   text-align: left;
   }
   
 .units{
   position: relative;
   top: -30px;
-  font-size: 22px;
+  font-size: 20px;
+  text-decoration: none;
 }
-.iconImage {
-  display: flex;
-  position: relative;
- margin-top: -75px;
- margin-left: 130px;
+.unitsLink {
+  text-decoration: none;
+}
 
-}
 .weekday {
   text-align: right;
   padding-right: 40px;
