@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Weather (props) {
   const [city, setCity] = useState(props.defaultCity)
@@ -15,7 +17,7 @@ function handleResponse(response) {
     city: response.data.name,
     humidity: response.data.main.humidity,
     description: response.data.weather[0].description,
-    icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+    icon: response.data.weather[0].icon,
     feelsLike: response.data.main.feels_like,
     date: new Date(response.data.dt * 1000)
   });

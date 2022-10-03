@@ -1,6 +1,5 @@
 .App {
   display: block;
-  text-align: center;
   margin: 60px auto;
   color: #878787;
   
@@ -10,13 +9,13 @@
   max-width: 700px;
   display: block;
   margin: 0px auto;
-  text-align: center;
+
   }
 .Weather {
   max-width: 700px;
   margin: 0px auto;
-  text-align: center;
-    border: 1px solid #D9D9D9;
+
+  border: 1px solid #D9D9D9;
   border-radius: 5px;
   padding: 20px 40px 20px 20px;
  
@@ -32,16 +31,24 @@ h1{
   color: #212121;
   }
 .currentTemp{
-  font-size: 50px;
+  font-size: 70px;
   color: #212121;
   margin-bottom: 0px;
-  margin-left: 5px;
+  margin-left: 26px;
+  text-align: left;
+  }
   
-}
 .units{
   position: relative;
-  top: -20px;
+  top: -30px;
   font-size: 22px;
+}
+.iconImage {
+  display: flex;
+  position: relative;
+ margin-top: -75px;
+ margin-left: 130px;
+
 }
 .weekday {
   text-align: right;
