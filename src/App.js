@@ -8,7 +8,7 @@ function App() {
   
   <div className="App">
   <div className="container">
-  <Weather city="Lisbon" />
+  <Weather defaultCity="Lisbon" />
       <footer className="author">
      
       This project was coded by Yulia Masliak and is open-sourced on <span>
