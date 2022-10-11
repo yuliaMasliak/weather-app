@@ -91,4 +91,14 @@ h1{
   font-size: 15px;
 
 }
-
+.dayly-forecast {
+  margin: 20px;
+  }
+  .WeatherForecast-icon {
+    margin: 10px 0px;
+  }
+  .WF-temp-max {
+    position: relative;
+    color: rgb(50, 0, 0);
+    left: -10px;
+  }
