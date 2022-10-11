@@ -10,7 +10,7 @@ export default function Weather (props) {
   const [weatherData, setWeatherData] = useState({ready: false});
 
 function handleResponse(response) {
- 
+  
   setWeatherData({
     ready: true,
     coordinates: response.data.coord,
@@ -23,6 +23,7 @@ function handleResponse(response) {
     feelsLike: response.data.main.feels_like,
     date: new Date(response.data.dt * 1000)
   });
+  
    }
   function handleSubmit(event) {
     event.preventDefault();

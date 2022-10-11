@@ -93,9 +93,15 @@ h1{
 }
 .dayly-forecast {
   margin: 20px;
+  text-align: center;
   }
   .WeatherForecast-icon {
     margin: 10px 0px;
+  }
+  .WeatherForecast-day {
+    text-align: center;
+    position: relative;
+    left: -8px;
   }
   .WF-temp-max {
     position: relative;
