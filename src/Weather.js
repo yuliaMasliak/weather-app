@@ -49,7 +49,7 @@ if (weatherData.ready){
           </form>
         </div>
         <WeatherInfo data={weatherData} />
-   <div className="row">
+   <div>
    <WeatherForecast coordinates={weatherData.coordinates}/>
    </div>
    </div>

@@ -15,8 +15,16 @@ function handleResponse (response){
 
 if (loaded) {
    return (
-    <div className="col">
-    <WeatherForecastDay data={forecast[0]}/>  
+      <div className="row">
+      {forecast.map(function (dailyForecast, index) {
+        if (index < 5) {
+          return (
+            <div className="col" key={index}>
+              <WeatherForecastDay data={dailyForecast} />
+            </div>
+          );
+        }
+      })}
     </div>
    ) 
 } else {
